@@ -1,0 +1,45 @@
+ *{
+     background: url("Images/gradients-for-photoshop-background-ui-shore.jpg");
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed;
+
+ }
+ h1{
+     color: white;
+ }
+ .header{
+    width: 100%;
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+} 
+
+input{
+    display: block;
+    margin-bottom: 10px !important;
+    border: none;
+    border-bottom: 2px solid darkcyan;
+    color: black !important;
+    font-weight: bold !important;
+
+}
+input:focus{
+    outline: none;
+}
+
+#products{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.display{
+    display: none;
+}
+button{
+    margin-left: 10px !important;
+}
