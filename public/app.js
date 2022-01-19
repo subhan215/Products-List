@@ -15,6 +15,7 @@ function add() {
     var remove = document.createElement("i");
     remove.className = "fas fa-times";
     remove.setAttribute("onclick", "remove(this)");
+    remove.style.cursor = "pointer";
     var para1Icon = document.createElement("i");
     para1Icon.classList.add("fal", "fa-edit")  
     para1Icon.setAttribute("onclick", "edit(this)");
